@@ -10,7 +10,9 @@ Software – Quartus prime
 
 **Theory**
 
-Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
+Introduction
+
+Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate OR gate NOT gate NAND gate NOR gate Ex-OR gate Ex-NOR gate
 
@@ -66,14 +68,44 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+```
+ Developed by: M.N.SOUNDARIYAN
+ RegisterNumber: 212222230146
+```
+
+ 
+```
+module ex1(a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor); 
+input a,b;
+output yand,yor,ynot,yxor,ynand,ynor,yxnor;
+and(yand,a,b);
+or(yor,a,b);
+not(ynot,a);
+xor(yxor,a,b);
+nand(ynand,a,b);
+nor(ynor,a,b);
+xnor(yxnor,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![de2](https://github.com/soundariyan18/study-of-basic-gates/assets/119393307/61cdeffa-68bf-4543-a3f4-e3891222cc56)
+
+
+**RTL realization Output:**
+
+![d2](https://github.com/soundariyan18/study-of-basic-gates/assets/119393307/9bb004cd-40b5-4003-a80b-27d90eccb1ec)
+
+
 
 **RTL**
 
+![de1](https://github.com/soundariyan18/study-of-basic-gates/assets/119393307/9a6812c9-b860-4678-82ee-6b48baa699fb)
+
+
 **Result:**
+
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
 
